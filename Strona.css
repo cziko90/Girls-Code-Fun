@@ -1,0 +1,53 @@
+
+.navi {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 20px;
+}
+
+a:link, a:visited {
+	color: grey;
+}
+
+.navi-right{
+	margin: 0px 30px;
+	font-size: 120%;
+}
+
+
+.main-section {
+	background-color: grey;
+	height: 900px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-section > .text
+{
+	text-align: center;
+}
+
+.header {
+	color: white;
+	/*text-align: center;*/
+}
+
+#guzik {
+	margin: 10px 0px;
+	outline-color: white;
+}
+
+@media (max-width: 1000px) {
+	.main-section {
+		height: 500px;
+	}
+}
+
+@media (max-width: 600px) {
+	.navi {
+		display: none;
+	}
+}

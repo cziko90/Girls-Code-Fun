@@ -1,0 +1,23 @@
+
+.header-dark {
+	background-color: lightgrey;
+}
+
+.logo {
+	width: 70%;
+}
+
+.image {
+	width: 80%;
+	margin: 40px auto;
+}
+
+.kolor {
+	background-color: pink;
+}
+
+.box {
+	width: 100%;
+	background-color: brown;
+	height: 200px;
+}
